@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    page-break-after: always;
+}
+
+.bingo-card {
+    border: 1px solid #000;
+    margin: 10px 0;
+    width: 200px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.bingo-card div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    font-size: 20px;
+}
+
+.bingo-card .free {
+    background-color: #ccc;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
