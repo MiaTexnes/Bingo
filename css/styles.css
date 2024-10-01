@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 20px;
+
+
 }
 
 .page {
@@ -11,25 +13,26 @@ body {
 }
 
 .bingo-card {
-    border: 1px solid #000;
+    border: 1.5px solid #000;
     margin: 10px 0;
     width: 200px;
     height: 200px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
+    background-color: white;
 }
 
 .bingo-card div {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #000;
+    border: 1.5px solid #000;
     font-size: 20px;
 }
 
 .bingo-card .free {
-    background-color: #ccc;
+    background-color: #ffffff;
 }
 
 h1 {

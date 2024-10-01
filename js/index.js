@@ -19,8 +19,10 @@ document.addEventListener("DOMContentLoaded", () => {
         card.push(generateColumnNumbers(46, 60, usedNumbers)); // G
         card.push(generateColumnNumbers(61, 75, usedNumbers)); // O
 
-        // Insert "FREE" space in the middle
-        card[2][2] = "FREE";
+        // Randomly select a position for the "FREE" space
+        const freeRow = Math.floor(Math.random() * 5);
+        const freeCol = Math.floor(Math.random() * 5);
+        card[freeCol][freeRow] = "";
 
         return card;
     }
