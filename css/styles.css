@@ -1,8 +1,6 @@
 body {
     margin: 0;
     padding: 20px;
-
-
 }
 
 .page {
@@ -10,6 +8,7 @@ body {
     flex-direction: column;
     align-items: center;
     page-break-after: always;
+    background-color: rgb(197, 245, 229);
 }
 
 .bingo-card {
@@ -20,7 +19,7 @@ body {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 .bingo-card div {

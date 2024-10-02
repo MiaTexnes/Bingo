@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             // Add header for the first card on each page
             const header = document.createElement("h1");
-            header.textContent = "Musikk Bingo";
+            header.textContent = "Musikkbingo";
             pageElement.appendChild(header);
 
             const usedNumbers = new Set();
