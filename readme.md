@@ -1,6 +1,8 @@
 
 # Bingo Card Generator
 
+Live site: https://bingo-cards.netlify.app/
+
 ## Bingo card generator that generates 3 random squares per sheet on 50 sheets with a blank in the middle and numbers 1-75.
 ### This was made by Mia P Texnes for a afterwork party in 2024.
 
