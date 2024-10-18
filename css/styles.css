@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 20px;
+    padding: 0px;
 }
 
 .page {
@@ -8,8 +8,12 @@ body {
     flex-direction: column;
     align-items: center;
     page-break-after: always;
-    background-color: rgb(197, 245, 229);
+    background-image: url("/images/2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Optional: Ensures the image covers the entire element */
 }
+
 
 .bingo-card {
     border: 1.5px solid #000;
@@ -36,4 +40,5 @@ body {
 
 h1 {
     margin-bottom: 20px;
+    background-color: white;
 }

@@ -19,10 +19,8 @@ document.addEventListener("DOMContentLoaded", () => {
         card.push(generateColumnNumbers(46, 60, usedNumbers)); // G
         card.push(generateColumnNumbers(61, 75, usedNumbers)); // O
 
-        // Randomly select a position for the "FREE" space
-        const freeRow = Math.floor(Math.random() * 5);
-        const freeCol = Math.floor(Math.random() * 5);
-        card[freeCol][freeRow] = "";
+        // Set the middle space as "FREE"
+        card[2][2] = "";
 
         return card;
     }
@@ -63,6 +61,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    // Generate 40 pages with 3 Bingo cards each
-    generateMultipleBingoCards(40, 3);
+    // Generate 50 pages with 3 Bingo cards each
+    generateMultipleBingoCards(50, 3);
 });
